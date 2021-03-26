@@ -601,15 +601,15 @@ void go2_surface_blit(go2_surface_t* srcSurface, int srcX, int srcY, int srcWidt
             break;
 
         case GO2_ROTATION_DEGREES_90:
-            src.rotation = HAL_TRANSFORM_ROT_90;
+            src.rotation = 0;
             break;
 
         case GO2_ROTATION_DEGREES_180:
-            src.rotation = HAL_TRANSFORM_ROT_180;
+            src.rotation = 0;
             break;
 
         case GO2_ROTATION_DEGREES_270:
-            src.rotation = HAL_TRANSFORM_ROT_270;
+            src.rotation = 0;
             break;
 
         default:
